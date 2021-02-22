@@ -29,7 +29,7 @@ Then test the new user you created by logging back in
 mysql -u newuser -p
 
 SETUP
-Create `.env` file, which will be ignored by your .gitignore file so its not uploading your personal data.
+Create `.env` file at the root of your project, which will be ignored by your .gitignore file so its not uploading your personal data.
 
 In your `.env` file, paste this code with your own configurations for the new user you created:
 `PORT=8080`
