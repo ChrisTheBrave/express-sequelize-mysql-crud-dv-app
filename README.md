@@ -19,7 +19,7 @@ Now that you’ve forked a project repository, cloned it down to your local syst
 Before you run any of this, make sure you create a new user (other than root) in mysql to handle your database.
 
 CREATING NEW USER IN MYSQL:
-*newuser can be whatever you choose and remember IDENTIFIED BY is your password*
+**newuser can be whatever you choose and remember IDENTIFIED BY is your password**
 
 CREAT USER 'newuser'@'localhost' IDENTIFIED BY 'newuser';
 GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
