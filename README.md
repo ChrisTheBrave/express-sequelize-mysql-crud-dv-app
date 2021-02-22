@@ -20,6 +20,7 @@ Before you run any of this, make sure you create a new user (other than root) in
 
 CREATING NEW USER IN MYSQL:
 **newuser can be whatever you choose and remember IDENTIFIED BY is your password**
+First log in as root user like you would normally. Then run code below.
 
 CREAT USER 'newuser'@'localhost' IDENTIFIED BY 'newuser';
 GRANT ALL PRIVILEGES ON *.* TO 'newuser'@'localhost';
