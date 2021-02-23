@@ -46,22 +46,5 @@ Executing (default): CREATE TABLE IF NOT EXISTS `neighborhoods` (`neighborhood_i
 
 Executing (default): SHOW INDEX FROM `neighborhoods`
 
-Before you start coding, create a separate line of changes (a “branch”) that is independent from the main line. This will ensure no changes are made to main and additional changes will be made via pull request.
 
-The git branching flow is as follows:
-1. Create and checkout a feature branch.
-2. Make changes to the files.
-3. Commit and push your changes to the branch.
-
-Create a branch by typing in your terminal `git checkout -b <new branch name>` ***(Example `git remote -b file-tree`)***
-
-Use `git add` and `git commit` as you usually would to make changes to your branch. 
-
-Remember branches are for small changes. Please don't revamp the entire app on your branch or we all gonna have a hard time lol
-
-To push your branch, in your terminal type `git push <origin> <new-feature>` ***(Example `git push origin file-tree`)***
-
-Note: The generic form of this command is `git push <remote> <branch>`. In this case, you’re pushing changes in the new-feature branch to the origin remote.
-
-Once you have pushed your branch, open a pull request on github for your feature to be reviewed and merged into main.
 
