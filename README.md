@@ -8,7 +8,7 @@ In your terminal, type `git remote -v` to check that origin points to forked ver
 
 We will be utilizing the `fork-and-branch` gitflow for this project.
 
-Once the project is on your local machine, create a remote pointing back to the original repository (the one you forked on GitHub). In your terminal type `git remote add upstream https://github.com/ChrisTheBrave/inst377-project-group-13.git`
+Once the project is on your local machine, create a remote pointing back to the original repository (the one you forked on GitHub). In your terminal type `git remote add upstream https://github.com/ChrisTheBrave/express-sequelize-mysql-crud-dv-app.git`
 
 Now that you’ve forked a project repository, cloned it down to your local system, and added a Git remote to your clone that points to the original project repository on GitHub, you can start making changes to your local Git repository.
 
