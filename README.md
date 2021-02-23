@@ -1,8 +1,4 @@
-Group 13 Final Project
-
 Set Up Instructions:
-
-First, navigate to project page: https://github.com/ChrisTheBrave/inst377-project-group-13.
 
 Click "Fork" button in the top right corner of your screen.
 
